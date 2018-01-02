@@ -1,0 +1,33 @@
+body {
+  background: rgba(199, 237, 238, 0.534) url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Graph-paper.svg/400px-Graph-paper.svg.png") repeat scroll 0px 0px;
+}
+
+/*div{
+    border-radius: 26px 26px 26px 26px;
+    -moz-border-radius: 26px 26px 26px 26px;
+    -webkit-border-radius: 26px 26px 26px 26px;
+}*/
+.main {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  background: #FFF6EF;
+}
+
+.card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#draggable {
+  padding: 0.5em;
+}
+/*# sourceMappingURL=style.css.map */
